@@ -1,2 +1,2 @@
 # Basic-Data-Structures
-Sample programs for the implementation of basic data structures 
+This repository has sample programs for the implementation of basic data structures 

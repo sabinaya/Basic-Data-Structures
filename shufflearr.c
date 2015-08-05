@@ -8,15 +8,15 @@ int main(){
 	int left = 0;
 	int right = 9;
 	shuffleArray(arr,left,right);
+	printarr(arr);
 	return 0;
 }
 
 void shuffleArray(int arr[], int l, int r){
 	int c = l+(r-l)/2;
 	int q = 1+l+(c-l)/2;
-	if(l == r){
+	if(l == r)
 		return;
-	}
 	for(int k=1,i=q; i<=c; k++,i++){
 		int temp = arr[i];
 		arr[i] = arr[c+k];
